@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eric Raszewski | Revenue Operations & GTM Strategy</title>
+  <meta name="description" content="Resume website for Eric Raszewski: Revenue Operations, GTM Strategy, territory design, pipeline and forecasting, GIS-powered market intelligence." />
+  <meta name="theme-color" content="#070a0f" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand__dot"></span>
+        <span class="brand__text" id="brandName">Eric</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#experience">Experience</a>
+        <div class="navLinks">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        </div>
+</nav>
+
+      <div class="topbar__cta">
+        <a class="btn btn--ghost" id="btnLinkedIn" href="#" rel="noopener">LinkedIn</a>
+        <a class="btn btn--ghost" id="btnResume" href="#" rel="noopener">Download PDF</a>
+        <a class="btn" id="btnEmail" href="#">Email</a>
+      </div>
+
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="kicker" id="kicker"></p>
+          <h1 id="headline"></h1>
+          <p class="lede" id="summary"></p>
+
+          <div class="hero__actions">
+            <a class="btn" id="btnPrimary" href="#contact">Get in touch</a>
+            <a class="btn btn--ghost" id="btnSecondary" href="#experience">View experience</a>
+          </div>
+
+          <dl class="stats" id="stats"></dl>
+
+          <div class="chips" id="availability"></div>
+        </div>
+
+        <aside class="hero__card" aria-label="Profile card">
+          <div class="avatar" id="avatar" role="img" aria-label="Profile photo"></div>
+          <div class="hero__cardText">
+            <h2 id="name"></h2>
+            <p id="tagline" class="muted"></p>
+            <ul class="bullets" id="highlights"></ul>
+
+            <div class="mini">
+              <a id="miniLinkedIn" href="#" rel="noopener">LinkedIn</a>
+              <span class="sep">•</span>
+              <a id="miniSite" href="#" rel="noopener">MapOps</a>
+              <span class="sep">•</span>
+              <a id="miniEmail" href="#">Email</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="hero__glow" aria-hidden="true"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Experience</h2>
+          <p class="muted" id="experienceIntro"></p>
+        </div>
+        <div class="timeline" id="experienceList"></div>
+      </div>
+    </section>
+
+    <section id="education" class="section section--alt">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Education</h2>
+          <p class="muted">Formal training and credentials.</p>
+        </div>
+        <div class="edu" id="educationList"></div>
+      </div>
+    </section>
+
+<section id="projects" class="section section--alt">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Projects</h2>
+          <p class="muted">Selected work and what I am building now.</p>
+        </div>
+        <div class="grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Skills</h2>
+          <p class="muted">Practical strengths, not buzzwords.</p>
+        </div>
+        <div class="skills" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    
+    
+    
+    <section id="leadership" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Leadership Themes</h2>
+        </div>
+        <div class="grid">
+          <div class="card"><h3>Build structure where growth has outpaced systems</h3><p>I bring order and visibility to fast-growing environments so teams can scale without burning out.</p></div>
+          <div class="card"><h3>Develop people alongside performance</h3><p>I invest in coaching and growth, helping individuals succeed while driving strong team results.</p></div>
+          <div class="card"><h3>Translate strategy into operating reality</h3><p>I turn high-level goals into clear territories, rhythms, and responsibilities that teams can execute.</p></div>
+          <div class="card"><h3>Use data to support decisions, not replace judgment</h3><p>I combine data with context and experience to improve decision-making without overcomplicating execution.</p></div>
+        </div>
+      </div>
+    </section>
+    
+<section id="testimonials" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Testimonials</h2>
+          <p class="muted">A few notes from teammates, leaders, and partners I have worked with.</p>
+        </div>
+        <div class="grid grid--testimonials" id="testimonialGrid"></div>
+        <div class="section__foot">
+          <a class="link" href="https://www.linkedin.com/in/ericraszewski/details/recommendations/" target="_blank" rel="noreferrer">See more on LinkedIn →</a>
+        </div>
+      </div>
+    </section>
+
+<section id="personal" class="section section--alt">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Personal</h2>
+          <p class="muted">A few things that matter to me outside of work.</p>
+        </div>
+
+        <div class="personalGrid">
+          <div class="personalCopy card">
+            <h3 id="personalHeadline"></h3>
+            <p id="personalBlurb" class="muted"></p>
+            <div class="tags" id="personalTags"></div>
+
+            <div class="personalBadges" id="personalBadges"></div>
+          </div>
+
+          <div class="personalGallery">
+            <div class="gallery" id="personalGallery" aria-label="Personal photo gallery"></div>
+            <p class="muted small">Click a photo to view it larger.</p>
+          </div>
+        </div>
+
+        <div class="lightbox" id="lightbox" aria-hidden="true">
+          <button class="lightbox__close" id="lightboxClose" aria-label="Close">×</button>
+          <img id="lightboxImg" alt="Expanded photo" />
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="contact" class="cta">
+      <div class="wrap cta__inner">
+        <div>
+          <h2 class="h2" id="contactTitle"></h2>
+          <p class="muted" id="contactBlurb"></p>
+        </div>
+        <div class="cta__actions">
+          <a class="btn" id="contactEmail" href="#">Email me</a>
+          <a class="btn btn--ghost" id="contactLinkedIn" href="#" rel="noopener">Message on LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__left">
+        <div class="brand brand--footer">
+          <span class="brand__dot"></span>
+          <span class="brand__text" id="footerName"></span>
+        </div>
+        <p class="muted" id="footerLine"></p>
+      </div>
+      <div class="footer__right">
+        <a id="footerLinkedIn" href="#" rel="noopener">LinkedIn</a>
+        <a id="footerSite" href="#" rel="noopener">MapOps</a>
+        <a id="footerResume" href="#" rel="noopener">PDF</a>
+        <a id="footerEmail" href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
