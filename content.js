@@ -294,7 +294,7 @@ window.SITE = {
   personal: {
     headline: "Dad of 2. Married. Marine Corps veteran. Always outside when I can be.",
     blurb:
-      "Outside of work you will usually find me chasing a trail, poking around tide pools, or planning the next camping or campervan trip. I care a lot about conservation and I am happiest when I am building something with my hands, whether that is a map, a plan, or a new fermentation experiment. I also love sports and fully expect to become a dangerous lawn bowls player in my 70s. For fun I play card games like MTG and Marvel Snap (I was once ranked 25th).",
+      "Outside of work you will usually find me chasing fish, hoofing a new trail, poking around tide pools, or planning the next camping or campervan trip. I care a lot about conservation and I am happiest when I am building something with my hands, whether that is a map, a plan, or a new fermentation experiment. I also love sports and fully expect to become a dangerous lawn bowls player in my 70s. For fun I play card games like MTG and Marvel Snap (I was once ranked 25th).",
     tags: [
       "Hiking",
       "Camping",
